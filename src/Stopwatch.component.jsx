@@ -34,7 +34,7 @@ const Stopwatch = () => {
   return (
     <div className="container">
       <h1>Stopwatch</h1>
-      <p>Time:{timeFormat(time)}</p>
+      <p>Time: {timeFormat(time)}</p>
       <div>
         <button onClick={startHandler}>{timerStart ? "Stop" : "Start"}</button>
         <button onClick={resetHandler}>Reset</button>
